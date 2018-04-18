@@ -45,9 +45,10 @@
                     </li>
                     <li>
                         <div class="content-text">
-                            <h3 class="line-title withDetails" data-toggle="collapse" data-target="#moreFormations" aria-expanded="false" aria-controls="moreFormations"><i class="icon-arrow-right"></i> Et bien d'autres...</h3>
+                            <h3 class="line-title withDetails" data-target="#moreFormations" aria-expanded="false"
+                                aria-controls="moreFormations"><i class="icon-arrow-right"></i> Et bien d'autres...</h3>
                             {{--<span>Depuis Fév. 2017</span>--}}
-                            <p class="line-text collapse" id="moreFormations">
+                            <p class="line-text withDetailsElements" id="moreFormations">
                                 <i class="fas fa-dot-circle"></i> Oct. 2010: MySQL Administration - AVOLYS<br />
                                 <i class="fas fa-dot-circle"></i> Mai 2009: TOMCAT Administration - v<br />
                                 <i class="fas fa-dot-circle"></i> Fev. 2009: PHP5 Perfectionnement - ORSYS<br />
@@ -74,9 +75,11 @@
                     </li>
                     <li>
                         <div class="content-text">
-                            <h3 class="line-title withDetails" data-toggle="collapse" data-target="#experience1" aria-expanded="false" aria-controls="experience2"><i class="icon-arrow-right"></i> PRODIGIT - Directeur Technique Back office</h3>
+                            <h3 class="line-title withDetails" data-target="#experience1" aria-expanded="false"
+                                aria-controls="experience1"><i class="icon-arrow-right"></i> PRODIGIT - Directeur
+                                Technique Back office</h3>
                             <span>Depuis Fév. 2017</span>
-                            <p class="line-text collapse" id="experience1">
+                            <p class="line-text withDetailsElements" id="experience1">
                                 <i class="fas fa-dot-circle"></i> Développement du back office des applications avec Laravel<br />
                                 <i class="fas fa-dot-circle"></i> Développement des API utilisée par les applications mobiles
                             </p>
@@ -84,9 +87,11 @@
                     </li>
                     <li>
                         <div class="content-text">
-                            <h3 class="line-title withDetails" data-toggle="collapse" data-target="#experience2" aria-expanded="false" aria-controls="experience2"><i class="icon-arrow-right"></i> FIDUCIAL - Lead Developer PHP / Symfony</h3>
+                            <h3 class="line-title withDetails" data-target="#experience2" aria-expanded="false"
+                                aria-controls="experience2"><i class="icon-arrow-right"></i> FIDUCIAL - Lead Developer
+                                PHP / Symfony</h3>
                             <span>Déc. 2015 - Fév. 2017</span>
-                            <p class="line-text collapse" id="experience2">
+                            <p class="line-text withDetailsElements" id="experience2">
                                 <i class="fas fa-dot-circle"></i> Développement d’applications web en PHP avec Symfony 2.7<br/>
                                 <i class="fas fa-dot-circle"></i> Gestion de projet et encadrement d’une équipe de 4 développeurs<br/>
                                 <i class="fas fa-dot-circle"></i> Support informatique des applications et des bases de données RH
@@ -95,9 +100,11 @@
                     </li>
                     <li>
                         <div class="content-text">
-                            <h3 class="line-title withDetails" data-toggle="collapse" data-target="#experience3" aria-expanded="false" aria-controls="experience2"><i class="icon-arrow-right"></i> GFI INFORMATIQUE - Ingénieur d'études</h3>
+                            <h3 class="line-title withDetails" data-target="#experience3" aria-expanded="false"
+                                aria-controls="experience3"><i class="icon-arrow-right"></i> GFI INFORMATIQUE -
+                                Ingénieur d'études</h3>
                             <span>Sept. 2015 - Déc. 2015</span>
-                            <p class="line-text collapse" id="experience3">
+                            <p class="line-text withDetailsElements" id="experience3">
                                 <i class="fas fa-dot-circle"></i> Développement d’applications et support aux clients<br/>
                                 <i class="fas fa-dot-circle"></i> Installation et configuration d’un serveur de monitoring sous Nagios<br/>
                                 <i class="fas fa-dot-circle"></i> Développement d’une interface de gestion du serveur de monitoring sous Symfony 2.7<br/>
@@ -107,9 +114,11 @@
                     </li>
                     <li>
                         <div class="content-text">
-                            <h3 class="line-title withDetails" data-toggle="collapse" data-target="#experience4" aria-expanded="false" aria-controls="experience2"><i class="icon-arrow-right"></i> TOSHIBA TEIS - Analyste programmeur</h3>
+                            <h3 class="line-title withDetails" data-target="#experience4" aria-expanded="false"
+                                aria-controls="experience4"><i class="icon-arrow-right"></i> TOSHIBA TEIS - Analyste
+                                programmeur</h3>
                             <span>Juil. 2008 – Aout 2015</span>
-                            <p class="line-text collapse" id="experience4">
+                            <p class="line-text withDetailsElements" id="experience4">
                                 <i class="fas fa-dot-circle"></i> Développement d’applications web en PHP pour les besoins des services<br/>
                                 <i class="fas fa-dot-circle"></i> Support informatique des applications et des bases de données du centre logistique<br/>
                                 <i class="fas fa-dot-circle"></i> éveloppement et maintenance des interfaces informatiques avec l’UGAP<br/>
@@ -119,9 +128,11 @@
                     </li>
                     <li>
                         <div class="content-text">
-                            <h3 class="line-title withDetails" data-toggle="collapse" data-target="#experience5" aria-expanded="false" aria-controls="experience2"><i class="icon-arrow-right"></i> TOSHIBA TEIS - Administrateur réseaux</h3>
+                            <h3 class="line-title withDetails" data-target="#experience5" aria-expanded="false"
+                                aria-controls="experience5"><i class="icon-arrow-right"></i> TOSHIBA TEIS -
+                                Administrateur réseaux</h3>
                             <span>Oct. 2002 – Juin 2008</span>
-                            <p class="line-text collapse" id="experience5">
+                            <p class="line-text withDetailsElements" id="experience5">
                                 <i class="fas fa-dot-circle"></i> Installation, configuration de serveurs<br/>
                                 <i class="fas fa-dot-circle"></i> Installation, configuration de postes clients sous Windows
                             </p>

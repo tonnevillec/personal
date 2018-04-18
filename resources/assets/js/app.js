@@ -7,7 +7,7 @@ window.$ = $;
  * includes Vue and other libraries. It is a great starting point when
  * building robust, powerful web applications using Vue and Laravel.
  */
-require('./bootstrap');
+// require('./bootstrap');
 // require('wowjs');
 
 require('./elements/jquery.mixitup');
@@ -20,7 +20,7 @@ require('./elements/jquery.slicknav');
 
 require('./elements/main');
 
-window.Vue = require('vue');
+// window.Vue = require('vue');
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
