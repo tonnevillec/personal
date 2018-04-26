@@ -20,8 +20,12 @@ class ContactController extends Controller
             'message' => 'required',
         ]);
 
-        Mail::to('tonnevillec@gmail.com')
-            ->send(new Contact($request->except('_token')));
+        try {
+            Mail::to('tonnevillec@yahoo.fr')
+                ->send(new Contact($request->except('_token')));
+        } catch (\Exception $e) {
+            dd($e->getMessage());
+        }
 
         return redirect('/');
     }

@@ -33,7 +33,8 @@ class Contact extends Mailable
      */
     public function build()
     {
-        return $this->from('contact@cyril-tonneville.fr')
+        return $this->from($this->contact['email'])
+            ->subject('Contact depuis le cv en ligne')
             ->view('emails.contact');
     }
 }
