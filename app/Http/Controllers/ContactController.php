@@ -23,7 +23,7 @@ class ContactController extends Controller
 
         if ($request->get('confirm') == config('app.confirmation_key')) {
             try {
-                Mail::to(config('mail.username')
+                Mail::to(config('mail.username'))
                     ->send(new Contact($request->except('_token')));
             } catch (\Exception $e) {
                 dd($e->getMessage());
