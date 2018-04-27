@@ -1013,6 +1013,11 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 // Contact
 .contact-form-area {
+  .no-margin {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   .form-group {
     margin-bottom: 5px;
   }

@@ -18,10 +18,17 @@ class ContactController extends Controller
             'name' => 'required',
             'email' => 'required',
             'message' => 'required',
+            'confirm' => 'required',
         ]);
 
-        Mail::to('tonnevillec@gmail.com')
-            ->send(new Contact($request->except('_token')));
+        if ($request->get('confirm') == config('app.confirmation_key')) {
+            try {
+                Mail::to('tonnevillec@gmail.com')
+                    ->send(new Contact($request->except('_token')));
+            } catch (\Exception $e) {
+                dd($e->getMessage());
+            }
+        }
 
         return redirect('/');
     }

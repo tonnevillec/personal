@@ -28,6 +28,21 @@
                                               placeholder="Votre message"></textarea>
                                 </div>
                             </div>
+                            <div class="row no-margin">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 mb20">
+                                    <div class="form-group">
+                                        <img src="/img/confirm.png">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 mb20">
+                                    <div class="form-group">
+                                        <label class="control-label sr-only " for="confirm"></label>
+                                        <input id="confirm" name="confirm" type="text" placeholder="Recopier le captcha"
+                                               class="form-control" required>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
                                 <button class="btn btn-primary btn-lg" type="submit"><i class="far fa-envelope"></i>
                                     Envoyer

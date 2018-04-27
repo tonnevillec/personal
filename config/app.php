@@ -14,6 +14,7 @@ return [
     */
 
     'name' => env('APP_NAME', 'Cyril Tonneville'),
+    'confirmation_key' => env('CONFIRMATION_KEY', 'ppmaker'),
 
     /*
     |--------------------------------------------------------------------------
